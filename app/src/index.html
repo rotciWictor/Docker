@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="name" placeholder="Nome">
+    <input type="text" id="email" placeholder="E-mail">
+    <input type="button" id="save-btn" value="Salvar" onclick=createInput()>
+    <table style="display: flex;flex-direction: column; justify-content: flex-start;align-items: center;width: fit-content;">
+    <thead>
+        <th>Nome</th>
+        <th>Email</th>
+        <th></th>
+    </thead>
+    <tbody id="table">
+    
+    </tbody>
+    
+    
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

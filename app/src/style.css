@@ -1,0 +1,16 @@
+table, th, td{
+    border: black 1px solid;
+}
+
+table{
+    width:1000px;
+}
+
+thead,tbody{
+    width: 900px;
+}
+
+th, td {
+    text-align: center;
+    width: 300px;
+}
